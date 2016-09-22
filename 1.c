@@ -6,10 +6,12 @@ int main(int argc, char **argv)
 //впаывпыв
 //mastr
 //123
+//master 111111
     printf("Enter your first name: ");
     fgets(first, 255, stdin);
     first[strlen(first)-1] = '\0'; /* remove the newline at the end */
 
+//lastmaster comment	
     printf("Now enter your last name: ");
     gets(last); /* buffer overflow? what's that? */
 
