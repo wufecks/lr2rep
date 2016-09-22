@@ -7,7 +7,7 @@ int main(int argc, char **argv)
 //mastr
 //123
 //master 111111
-    printf("Enter your first name: ");
+    printf("Enter your first name bro: ");
     fgets(first, 255, stdin);
     first[strlen(first)-1] = '\0'; /* remove the newline at the end */
 
